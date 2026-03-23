@@ -19,10 +19,6 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 - Lagt inn forklaringer, begrunnelser, tabeller og refleksjoner i Jupyter notebooken som kreves.  
 - Oppnådd ~93–94 % accuracy på språkidentifikasjon og fungerende NER-tagging (med typiske variasjoner fra beam search).
 
-## Resultater (Del 1)
-- **Accuracy** på testsettet: ~0.938  
-- **Macro F1**: ~0.906  
-- Modellen lærer seg nyttige IPA-symboler (f.eks. ʋ øker sannsynligheten for norsk, mens ² reduserer den).
 
 ## Hvordan kjøre
 1. Du må klone repoet, og kjøre pip install numpy pandas scikit-learn
