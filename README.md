@@ -35,4 +35,4 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 ---
 
 **Kort oppsummert:**  
-Dette er en klassisk intro til språkteknologi: fra enkel logistisk regresjon på lydsymboler til en full HMM-basert NER-pipeline. Oppgaven er nå ferdig implementert og klar for innlevering.
+Dette er en klassisk intro til språkteknologi: fra enkel logistisk regresjon på lydsymboler til en full HMM-basert NER-pipeline.
