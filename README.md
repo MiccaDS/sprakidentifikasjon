@@ -25,11 +25,11 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 - Modellen lærer seg nyttige IPA-symboler (f.eks. ʋ øker sannsynligheten for norsk, mens ² reduserer den).
 
 ## Hvordan kjøre
-1. Du må klone repoet, og kjøre py -m pip install -r requirements.txt
+1. Du må klone repoet, og kjøre pip install numpy pandas scikit-learn
 2. Kjør cellene – alt er ferdig implementert og dokumentert.
 
 ## Merknader
-- Innleveringen består av den fylte notebooken med kode + tekstlige forklaringer (ikke bare kode).  
+- Innleveringen består av den fylte notebooken med kode + tekstlige forklaringer.  
 - Alt er testet og fungerer på det offisielle datasettet.
 
 ---
