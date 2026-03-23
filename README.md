@@ -26,7 +26,7 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 
 ## Hvordan kjøre
 1. Du må klone repoet, og kjøre pip install numpy pandas scikit-learn
-2. Kjør cellene – alt er ferdig implementert og dokumentert.
+2. Kjør filen språktek.py 
 
 ## Merknader
 - Innleveringen består av den fylte notebooken med kode + tekstlige forklaringer.  
