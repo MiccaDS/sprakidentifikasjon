@@ -1,4 +1,4 @@
-# IN2110 – Obligatorisk innlevering 1b
+# Tidligere prosjekt i språkteknologi på Universitetet i Oslo
 
 ## Målet med oppgaven
 Denne innleveringen har to hoveddeler og gir praktisk erfaring med grunnleggende maskinlæringsmetoder i språkteknologi:
