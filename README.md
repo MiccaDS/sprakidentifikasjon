@@ -25,9 +25,8 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 - Modellen lærer seg nyttige IPA-symboler (f.eks. ʋ øker sannsynligheten for norsk, mens ² reduserer den).
 
 ## Hvordan kjøre
-1. Aktiver `in2110`-conda-miljøet.
-2. Åpne `IN2110_oblig1b.ipynb` i Jupyter.
-3. Kjør cellene – alt er ferdig implementert og dokumentert.
+1. Du må klone repoet, og kjøre py -m pip install -r requirements.txt
+2. Kjør cellene – alt er ferdig implementert og dokumentert.
 
 ## Merknader
 - Innleveringen består av den fylte notebooken med kode + tekstlige forklaringer (ikke bare kode).  
