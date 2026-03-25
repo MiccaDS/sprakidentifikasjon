@@ -6,7 +6,7 @@ train_data, test_data = oblig1b_utils.extract_wordlist()
 
 print("Statistikk over språkene i treningsett:")
 print(train_data.språk.value_counts())
-print("Første 30 ord:")
+print("Første 30 ord:") 
 print(train_data[:30])
 
 import sklearn.linear_model
