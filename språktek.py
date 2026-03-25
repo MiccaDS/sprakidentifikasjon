@@ -95,7 +95,7 @@ class LanguageIdentifier:
         print("f1_macro:", f1_macro)
 
 
-# Bind the methods (this must come AFTER the function definitions)
+
 LanguageIdentifier._extract_unique_symbols = LanguageIdentifier._extract_unique_symbols
 LanguageIdentifier._extract_feats = LanguageIdentifier._extract_feats
 LanguageIdentifier.train = LanguageIdentifier.train
@@ -103,7 +103,7 @@ LanguageIdentifier.predict = LanguageIdentifier.predict
 LanguageIdentifier.evaluate = LanguageIdentifier.evaluate
 
 
-# ====================== TRAIN & TEST LANGUAGE IDENTIFIER ======================
+#trene og teste
 model = LanguageIdentifier()
 model.train(train_data.IPA.values, train_data.språk.values)
 
@@ -123,7 +123,7 @@ symbolet = unique_symbols[max_weight_index]
 print("\nDet fonetiske symbolet som bidrar mest til norsk er:", symbolet)
 
 
-# ====================== NAMED ENTITY RECOGNISER ======================
+
 print("\nTesting preprocess...")
 oblig1b_utils.preprocess("De første 43 minuttene hadde <ORG>Rosenborg</ORG> all makt og " +
                         "tilnærmet full kontroll på <LOC>Fredrikstad Stadion</LOC> .")
@@ -222,13 +222,13 @@ class NamedEntityRecogniser:
         return oblig1b_utils.postprocess(sentences, spans_list)
 
 
-# Bind the methods for NER
+
 NamedEntityRecogniser._add_counts = NamedEntityRecogniser._add_counts
 NamedEntityRecogniser._fill_probs = NamedEntityRecogniser._fill_probs
 NamedEntityRecogniser._beam_search = NamedEntityRecogniser._beam_search
 
 
-# Train NER model
+# trene model
 with open("norne_train.txt", encoding="utf-8") as fd:
     training_text = fd.read()
 
