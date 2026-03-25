@@ -13,10 +13,9 @@ Denne innleveringen har to hoveddeler og gir praktisk erfaring med grunnleggende
 Målet er å forstå feature-ekstraksjon, trening av generative og diskriminative modeller, evaluering (accuracy, precision, recall, F1), og grunnleggende sekvensmodellering.
 
 ## Hva jeg har gjort
-- Implementert hele `LanguageIdentifier`-klassen (feature-ekstraksjon, trening, prediksjon og evaluering).  
-- Implementert hele `NamedEntityRecogniser`-klassen (`_add_counts`, `_fill_probs`, `_beam_search`, BIO-tagging og `label()`).  
-- Trenet og testet begge modellene på de gitte datasettene.  
-- Lagt inn forklaringer, begrunnelser, tabeller og refleksjoner i Jupyter notebooken som kreves.  
+- Implementert `LanguageIdentifier`-klassen (feature-ekstraksjon, trening, prediksjon og evaluering).  
+- Implementert `NamedEntityRecogniser`-klassen (`_add_counts`, `_fill_probs`, `_beam_search`, BIO-tagging og `label()`).  
+- Trenet og testet begge modellene på de gitte datasettene.   
 - Oppnådd ~93–94 % accuracy på språkidentifikasjon og fungerende NER-tagging (med typiske variasjoner fra beam search).
 
 
