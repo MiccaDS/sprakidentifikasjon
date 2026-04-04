@@ -23,11 +23,6 @@ Målet er å forstå feature-ekstraksjon, trening av generative og diskriminativ
 1. Du må klone repoet, og kjøre pip install numpy pandas scikit-learn
 2. Kjør filen språktek.py 
 
-## Merknader
-- Innleveringen består av den fylte notebooken med kode + tekstlige forklaringer.  
-- Alt er testet og fungerer på det offisielle datasettet.
-
----
 
 **Kort oppsummert:**  
-Dette er en klassisk intro til språkteknologi: fra enkel logistisk regresjon på lydsymboler til en full HMM-basert NER-pipeline.
+Fra enkel logistisk regresjon på lydsymboler til en full HMM-basert NER-pipeline.
