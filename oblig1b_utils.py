@@ -5,7 +5,7 @@ import os
 import re
 import random
 
-LOGISTISK REGRESJON
+#LOGISTISK REGRESJON
 
 ORDFILER = {
     "norsk": "https://raw.githubusercontent.com/open-dict-data/ipa-dict/master/data/nb.txt?raw=true",
