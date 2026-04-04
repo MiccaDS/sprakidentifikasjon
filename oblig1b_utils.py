@@ -5,9 +5,8 @@ import os
 import re
 import random
 
-#####################################
 # METODER FOR LOGISTISK REGRESJON
-#####################################
+
 
 ORDFILER = {
     "norsk": "https://raw.githubusercontent.com/open-dict-data/ipa-dict/master/data/nb.txt?raw=true",
@@ -119,10 +118,8 @@ def _download_wordlist(max_nb_words_per_language=50000):
     
     return full_wordlist
 
-
-#####################################
 # METODER FOR ENTITETSGJENKJENNING
-#####################################
+
 
 def preprocess(tagged_text):
     """Tar en tokenisert tekst med XML tags og returnerer setninger + spans."""
